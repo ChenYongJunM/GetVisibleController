@@ -18,7 +18,7 @@
 - (void)viewDidLoad {
     [super viewDidLoad];
 
-    UIViewController *vc = [SecondViewController getTopMostViewController];
+    UIViewController *vc = [SecondViewController getVisibleController];
     UIAlertView *alert = [[UIAlertView alloc] initWithTitle:@"2222" message:@"222222221" delegate:vc cancelButtonTitle:@"翘哦" otherButtonTitles:nil, nil];
     [alert show];
 }

@@ -10,6 +10,6 @@
 
 @interface UIViewController (VisibleController)
 
-+ (UIViewController*) getTopMostViewController;
++ (UIViewController*) getVisibleController;
 
 @end

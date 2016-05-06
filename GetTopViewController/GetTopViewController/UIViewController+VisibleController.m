@@ -10,7 +10,7 @@
 
 @implementation UIViewController (VisibleController)
 
-+ (UIViewController*) getTopMostViewController
++ (UIViewController*) getVisibleController
 {
     UIWindow *window = [[UIApplication sharedApplication] keyWindow];
     if (window.windowLevel != UIWindowLevelNormal) {

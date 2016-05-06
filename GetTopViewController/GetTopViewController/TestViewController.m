@@ -19,7 +19,7 @@
     [super viewDidLoad];
     
     
-    UIViewController *vc = [TestViewController getTopMostViewController];
+    UIViewController *vc = [TestViewController getVisibleController];
     UIAlertView *alert = [[UIAlertView alloc] initWithTitle:@"2222" message:@"222222221" delegate:vc cancelButtonTitle:@"翘哦" otherButtonTitles:nil, nil];
     [alert show];
     
